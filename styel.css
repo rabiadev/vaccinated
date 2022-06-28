@@ -1,0 +1,627 @@
+* {
+    padding: 0;
+    margin: 0;
+ }
+@font-face {
+    font-family: 'Mulish', sans-serif;
+    src: url(Mulish-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Display;
+    src: url(SF-UI-Display-Regular.otf);
+}
+nav {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    overflow: auto;
+}
+.nav_bar ul {
+    list-style: none;
+    margin: 0 0 0 150px;
+    margin-right: 90px;
+
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.nav_bar li {
+    padding: 10px;
+
+    float: right;
+
+
+}
+
+.nav_bar ul a {
+
+    text-decoration: none;
+    color: #1F1534;
+
+}
+
+.logo img {
+    position: absolute;
+    width: 179px;
+    height: 43px;
+    top: 40px;
+
+    left: 220px;
+}
+
+li:hover {
+    text-decoration: underline #458FF6 2px;
+}
+
+span {
+    color: #458FF6;
+}
+
+.main {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.registration {
+
+    width: 30%;
+    height: 114px;
+    font-family: Display;
+    color: #7D7987;
+    margin-left: 200px;
+    margin-top: 137px;
+
+}
+
+.registration h1:hover {
+    text-decoration: #458FF6 underline;
+}
+
+.registration p:hover {
+    text-decoration: #458FF6 underline 2px;
+}
+
+.registration p {
+    padding-top: 10px;
+}
+
+.registration h1 {
+    font-family: Display;
+    color: #0E1111;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.btn {
+    display:inline-block ;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 12px;
+    width: 152px;
+    height: 28px;
+    font-family: Display;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    background-color:
+        #458FF6;
+    color: #FFFFFF;
+    border-radius: 120px;
+
+}
+
+.first {
+    width: 30%;
+
+}
+
+.first img {
+    width: 500px;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 137px;
+}
+
+.second h3 {
+    text-align: center;
+    margin-top: 80px;
+    font-family: SF UI Display;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 23px;
+    color: #0E1111;
+}
+
+.second h3:hover {
+    text-decoration: underline #458FF6;
+
+}
+
+.second h3 ::before {
+    content: "";
+    background-color: #0E1111;
+    height: 2px;
+    width: 60px;
+    color: #0E1111;
+    display: inline-block;
+    position: absolute;
+    top: 640px;
+}
+
+.box2 {
+    height: 170px;
+    width: 18%;
+    text-align: center;
+    color: #7D7987;
+    padding-top: 20px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+.box2 h3 {
+    color: #0E1111;
+    font-family: Display;
+    font-weight: 700 bold;
+    padding-top: 2px;
+    background-color: #FFFFFF;
+}
+
+.main2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+p:hover {
+    text-decoration: #458FF6 underline 2px;
+}
+
+
+
+
+
+
+.box2 p {
+    padding-top: 10px;
+    background-color: #FFFFFF;
+}
+
+.box2 img {
+    width: 20px;
+    height: 30px;
+}
+
+.box2:hover {
+    box-sizing: border-box;
+    border: #458FF6 3px solid;
+}
+
+.box2 h3:hover {
+    text-decoration: #458FF6 2px underline;
+    box-sizing: border-box;
+
+}
+
+
+.main3 {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.seven {
+
+    width: 25%;
+    height: 114px;
+
+    font-weight: 300 lighter;
+    font-family: Display;
+    color: #0E1111;
+    margin-left: 200px;
+    margin-top: 190px;
+
+}
+
+.seven h1::before {
+    content: "";
+    background-color: #0E1111;
+    height: 1px;
+    width: 50px;
+    color: #0E1111;
+    display: inline-block;
+    position: absolute;
+    top: 1130px;
+}
+
+.seven h1 {
+    font-family: Display;
+    font-weight: 700 bold;
+
+}
+
+.seven h1:hover {
+    text-decoration: #458FF6 underline;
+}
+
+.main3 .seven p {
+    color: #7D7987;
+    padding-top: 30px;
+}
+
+.eight {
+    width: 30%;
+
+}
+
+.eight img {
+    width: 550px;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 140px;
+}
+
+.seven .btn1 p {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 12px;
+    width: 152px;
+    height: 28px;
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    display:inline-block ;
+    border: #458FF6 1px solid;
+    color: #458FF6;
+    border-radius: 120px;
+}
+
+.seven .btn1 :hover {
+    border: 2px solid #8f3c81;
+}
+
+.btn1 p:hover {
+    text-decoration: underline #8f3c81;
+}
+.main4{
+    text-align: right;
+}
+.box1 {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-left: 196px;
+
+}
+
+.nine {
+
+    width: 25%;
+    height: 114px;
+    font-family: Display;
+    color: #0E1111;
+    margin-left: 200px;
+    margin-top: 190px;
+
+
+}
+
+.nine h1 {
+    display: flex;
+
+    flex-direction: row-reverse;
+    font-weight: 700 bold;
+    font-family: Display;
+
+}
+
+.nine h1:hover {
+    text-decoration: #458FF6 underline;
+}
+
+.nine h1:before {
+    content: "";
+    background-color: #0E1111;
+    height: 1px;
+    width: 90px;
+    color: #0E1111;
+    display: inline-block;
+    position: absolute;
+    top: 1570px;
+}
+
+.nine p {
+   
+    font-family: Display;
+    font-weight: 400 lighter;
+    color: #7D7987;
+    padding-top: 30px;
+}
+
+.ten {
+    width: 40%;
+
+}
+
+.ten img {
+    width: 450px;
+    height: 300px;
+
+    margin-top: 140px;
+}
+
+.btn1 p {
+    display:inline-block ;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 12px;
+    width: 152px;
+    height: 28px;
+    font-family: Display;
+
+    font-weight: 700;
+    font-size: 13px;
+    border: #458FF6 1px solid;
+    color: #458FF6;
+    border-radius: 120px;
+}
+
+.btn1 :hover {
+    border: 2px solid #8f3c81;
+
+
+
+}
+
+.btn1 p:hover {
+    text-decoration: underline #8f3c81;
+}
+
+.main7 {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Display;
+    font-weight: 700 bold;
+
+}
+
+.eleven {
+    width: 25%;
+    height: 114px;
+    color: #7D7987;
+    font-weight: 300 lighter;
+    font-family: Display;
+    color: #0E1111;
+    margin-left: 200px;
+    margin-top: 190px;
+
+}
+
+.eleven h1:before {
+    content: "";
+    background-color: #0E1111;
+    height: 1px;
+    width: 70px;
+    color: #0E1111;
+    display: inline-block;
+    position: absolute;
+    top: 2015px;
+}
+
+.eleven h1 {
+    font-family: Display;
+    font-weight: 700 bold;
+
+}
+
+.eleven h1:hover {
+    text-decoration: #458FF6 underline;
+}
+
+.main7 .eleven p {
+    color: #7D7987;
+    padding-top: 30px;
+}
+
+.eight1 {
+    width: 30%;
+
+}
+
+.eight1 img {
+
+    width: 550px;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 140px;
+}
+
+.eleven .btn1 p {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 12px;
+    width: 152px;
+    display:inline-block ;
+    height: 28px;
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    border: #458FF6 1px solid;
+    color: #458FF6;
+    border-radius: 120px;
+}
+
+.eleven .btn1 :hover {
+    border: 2px solid #8f3c81;
+}
+
+.btn1 p:hover {
+    text-decoration: underline #8f3c81;
+}
+
+.img {
+    display: flex;
+    padding-top: 20px;
+}
+
+
+.article h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Display;
+    font-weight: 700 bold;
+}
+
+.article h1::after {
+    content: "";
+    background-color: #0E1111;
+    height: 2px;
+    width: 50px;
+    color: #0E1111;
+    display: inline-block;
+    position: absolute;
+    top: 2345px;
+    left: 640px;
+}
+
+article {
+    display: flex;
+    margin-top: 50px;
+
+    margin-left: 200px;
+    margin-right: 15px;
+}
+
+.art1 {
+    height: 400px;
+    width: 270px;
+
+
+    margin: 20px;
+
+}
+
+.art1:hover {
+    border: #458FF6 2px solid;
+    box-sizing: border-box;
+}
+
+.art1 img {
+    width: 270px;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.art1 img:hover {
+    border: #458FF6 2px solid;
+    box-sizing: border-box;
+}
+
+.art1 h3 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.art1 h3:hover {
+    text-decoration: #458FF6 underline 2px;
+}
+
+.art1 p {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.art1 h4 {
+    font-family: 'Mulish', sans-serif;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.art1 h4 img {
+    width: 30px;
+}
+
+.main5 {
+    text-align: center;
+
+}
+
+.sec_last {
+    text-align: center;
+}
+
+.button {
+    background-color: #458FF6;
+    border: 2px solid red;
+    border-radius: 20%;
+
+
+}
+
+
+
+.fend{
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+ color: #FFFFFF;
+    height: 400px;
+    width: 100%;
+  
+    font-family: Display;
+  
+}
+.ficons{
+    display: flex;
+    justify-content: flex-end;
+  padding: 22px;
+}
+a img {
+  padding: 10px;
+}
+.para1{
+    
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+.fpara2{
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+.flist1{
+    padding: 30px;
+
+   
+    height: 200px;
+    width: 20%;
+}
+
+.flist2{
+  
+  padding-left: 30px;
+    padding-top: 45px;
+  
+    height: 215px;
+    width: 12%;
+}
+.flist2 li{
+    list-style: none;
+    line-height: 35px;
+}
+.footer_parts{
+ 
+    display: flex;
+  justify-content: center;
+
+}
